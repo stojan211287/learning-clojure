@@ -1,0 +1,130 @@
+(def x "alr")
+x
+(reduce (fn [x y] (x) x)
+)
+(reduce (fn [x y] (x)) x)
+(reduce (fn [x y] (x)) "alr")
+(tail "alr")
+(rest  "arl")
+(head "arl")
+(first x)
+(rest x)
+(defn [string]
+(+ (rest string) (first string))
+)
+(defn myfunc [string]
+(+ (rest string) (first string)))
+(myfunc x)
+(load-file "./src/reverse_string.clj")
+myfunc "alr"
+concat(
+(rest "alr")
+(load-file "./src/reverse_string.clj")
+myfunc "alr"
+(concat
+(rest "alr")
+(first "alr"))
+(load-file "./src/reverse_string.clj")
+myfunc "k" "alr"
+(myfunc "k" "alr")
+(myfunc ["k" "alr"])
+(load-file "./src/reverse_string.clj")
+(myfunc ["k" "alr"])
+(myfunc "k" "alr")
+(myfunc ["k" "alr"])
+("" (subs "alr" 0 1))
+(subs "alr" 0 1)
+(list ""
+(subs "alr" 0 1))
+(join ""
+(list "" 
+(subs "alr" 0 1)))
+(clojure.string/join ""
+(list "" 
+(subs "alr" 0 1)))
+(clojure.string/join ""
+(list "bollocks" 
+(subs "alr" 0 1)))
+(load-file "./src/reverse_string.clj")
+reverse-string "alr"
+reverse-string/reverse-string "alr"
+(reverse-string/reverse-string "alr")
+(seq "alr")
+(load-file "./src/reverse_string.clj")
+(reverse-string/reverse-string "alr")
+(load-file "./src/reverse_string.clj")
+(reverse-string/reverse-string "alr")
+(defn myfunc [acc charlist]
+  (concat acc
+    (first charlist)))
+(myfunc \a 
+(seq "alr"))
+(concat \a
+(first (seq "arl")))
+(first (seq "arl"))
+(concat \a \a)
+(load-file "./src/reverse_string.clj")
+(reverse-string/reverse-string "alr")
+(concat [\a]
+(first (seq "arl")))
+(concat [\a] \a)
+(conj \a \a)
+(conj [\a] \a)
+(load-file "./src/reverse_string.clj")
+(reverse-string/reverse-string "alr")
+(myfunc ["k" "alr"])
+(myfunc [\a] (seq "alr"))
+(defn myfunc [acc charlist]
+  (conj acc
+    (first charlist)))
+  (conj acc
+(myfunc [\a] (seq "alr"))
+(myfunc [\z] (seq "alr"))
+(load-file "./src/reverse_string.clj")
+(myfunc [\z] (seq "alr"))
+(reverse-string/reverse-string "alr")
+(myfunc [\z] (seq "alr"))
+(reduce myfunc (seq "arl"))
+(seq "arl"0
+(seq "arl")
+(reduce myfunc [\a] (seq "arl"))
+(myfunc [\z] (seq "alr"))
+(conj \q \a)
+(concat \a \a)
+(load-file "./src/reverse_string.clj")
+(reverse-string/reverse-string "alr")
+(first "arl")
+[(first "arl")]
+(load-file "./src/reverse_string.clj")
+(myfunc [\z] (seq "alr"))
+(reverse-string/reverse-string "arl")
+(load-file "./src/reverse_string.clj")
+(reverse-string/reverse-string "alr")
+(myfunc \a (seq "arl"))
+(myfunc [\a] (seq "arl"))
+(conj \a [\a])
+(load-file "./src/reverse_string.clj")
+(myfunc [\a] (seq "arl"))
+(myfunc \a (seq "arl"))
+(conj \a '((first "arl")))
+'((first "arl"))
+(conj '((first "arl")) \a)
+(conj (first "arl") \a)
+(conj '(\a) (first "arl"))
+(load-file "./src/reverse_string.clj")
+(myfunc \a (seq "arl"))
+(load-file "./src/reverse_string.clj")
+(myfunc \a (seq "arl"))
+(myfunc [] (seq "arl"))
+reverse-string/reverse-string "arl"
+(reverse-string/reverse-string "arl")
+(myfunc [] (seq "arl"))
+(reduce myfunc [] (seq "arl"))
+(myfunc [] \a)
+(load-file "./src/reverse_string.clj")
+(reverse-string/reverse-string "arl")
+(load-file "./src/reverse_string.clj")
+(reverse-string/reverse-string "arl")
+(load-file "./src/reverse_string.clj")
+(reverse-string/reverse-string "arl")
+(into '() "arl")
