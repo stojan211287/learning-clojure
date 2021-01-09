@@ -1,0 +1,48 @@
+load-file src/two_fer
+load_file two_fer
+load_file two_fer.clj
+load-file "two_fer.clj"
+two-fer "Stojan"
+two-fer/two-fer
+load-file "src/two_fer.clj"
+two-fer/two-fer
+load-file "two_fer.clj"
+two-fer
+two-fer/two-fer
+ns
+*ns*
+load-file "src/two_fer.clj"
+two-fer
+two-fer/two-fer
+two-fer/two-fer "Bla"
+(ns two-fer)
+two-fer
+(ns user)
+load-file "src/two_fer.clj"
+src/two_fer
+two-fer
+(two-fer/two-fer "Stojan")
+(two-fer "Stojan")
+(dick/omg "Stojan")
+load-file "src/two_fer.clj"
+(dick/omg "Stojan")
+(load-file "src/two_fer.clj")
+two-fer/two-fer "Stojan"
+(two-fer/two-fer "Stojan")
+(two-fer/two-fer )
+(load-file "./src/two_fer.clj")
+(two-fer/two-fer "Stojan")
+(two-fer/two-fer "")
+(two-fer/two-fer)
+(load-file "./src/two_fer.clj")
+(two-fer/two-fer)
+(load-file "./src/two_fer.clj")
+(two-fer/two-fer)
+(two-fer/two-fer )
+(two-fer/two-fer "Stojan")
+(load-file "./src/two_fer.clj")
+(two-fer/two-fer )
+(two-fer/two-fer "Stojan")
+(load-file "./src/two_fer.clj")
+(two-fer/two-fer )
+(two-fer/two-fer)

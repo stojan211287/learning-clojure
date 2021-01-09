@@ -1,0 +1,4 @@
+load-file hello_world.clj
+(println "Hello")
+(println "Hello, World!")
+(print "Hello!")
